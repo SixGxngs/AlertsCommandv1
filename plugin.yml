@@ -1,0 +1,16 @@
+---
+name: AlertCommand
+author: SixGxngs
+api:
+- 4.0.0
+version: "1.0"
+main: alert\alert
+commands:
+  alert:
+    description: Alert to players!
+    permission: alert.command.use
+permissions:
+  alert.command.use:
+    description: Permission to Alert plugin!
+    default: op
+...
